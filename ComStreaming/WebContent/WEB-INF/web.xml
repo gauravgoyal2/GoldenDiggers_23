@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<servlet>
+		<description></description>
+		<display-name>LoadMap</display-name>
+		<servlet-name>LoadMap</servlet-name>
+		<servlet-class>com.comviva.utility.LoadMap</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadMap</servlet-name>
+		<url-pattern>/LoadMap</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>SubmitRequest</servlet-name>
+		<servlet-class>com.comviva.servlet.SubmitRequest</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>AppRequest</servlet-name>
+		<servlet-class>com.comviva.servlet.AppRequest</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>TestServlet</servlet-name>
+		<servlet-class>com.comviva.servlet.TestServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>AppRequest1</servlet-name>
+		<servlet-class>com.comviva.servlet.AppRequest1</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>SubmitRequest</servlet-name>
+		<url-pattern>/SubmitRequest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AppRequest</servlet-name>
+		<url-pattern>/AppRequest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TestServlet</servlet-name>
+		<url-pattern>/TestServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AppRequest1</servlet-name>
+		<url-pattern>/AppRequest1</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<session-config>
+		<session-timeout>2</session-timeout>
+	</session-config>
+</web-app>

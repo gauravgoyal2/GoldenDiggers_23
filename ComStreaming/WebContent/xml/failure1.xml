@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<WowzaStreamingEngine>
+    <ConnectionsCurrent>0</ConnectionsCurrent>
+    <ConnectionsTotal>60</ConnectionsTotal>
+    <ConnectionsTotalAccepted>53</ConnectionsTotalAccepted>
+    <ConnectionsTotalRejected>7</ConnectionsTotalRejected>
+    <MessagesInBytesRate>0.0</MessagesInBytesRate>
+    <MessagesOutBytesRate>0.0</MessagesOutBytesRate>
+    <VHost>
+        <Name>_defaultVHost_</Name>
+        <TimeRunning>5863.103</TimeRunning>
+        <ConnectionsLimit>0</ConnectionsLimit>
+        <ConnectionsCurrent>0</ConnectionsCurrent>
+        <ConnectionsTotal>60</ConnectionsTotal>
+        <ConnectionsTotalAccepted>53</ConnectionsTotalAccepted>
+        <ConnectionsTotalRejected>7</ConnectionsTotalRejected>
+        <MessagesInBytesRate>0.0</MessagesInBytesRate>
+        <MessagesOutBytesRate>0.0</MessagesOutBytesRate>
+    </VHost>
+</WowzaStreamingEngine>
